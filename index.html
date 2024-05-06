@@ -7,14 +7,40 @@
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Quiz App</h1>
-        <div id="question"></div>
-        <div id="choices"></div>
-        <button onclick="nextQuestion()">Next</button> 
-        <div id="score"></div>
-        <button id="check" onclick="textAnswer()">Check in text</button>
-    </div>
+    <header>
+        <h1>Irish-tech</h1>
+    </header>
+    <main>
+        <div id="text">
+
+            <p><span class="check_text"><b>Irish</b> people are heavily reliant on technology to function, according to a recent report, with 44 percent believing that technology is negatively impacting family life at home.</span>
+
+                Discussing the findings of the Behaviour and Attitudes (B&A) report, Techscape 2023, B&A managing director Luke Reaper stated: "One of the most striking implications of digitalization is the reliance on broadband, and joking aside, if someone ever switched it off, what would the world do?"
+                
+                Based on research conducted through face-to-face interviews with a sample of 1,000 people in Ireland aged 16 and above, <span class="check_text2">B&A discovered that 85 percent access the internet once a day or more frequently </span>,<span class="check_text3"> with a growing gap between middle-class (95 percent) and working-class (77 percent) cohorts.</span>
+                
+             <span class="check_text4">"Technology, by its very nature, has always been pushing boundaries and has expanded its reach into our lives, so much so that we now simply could not leave our homes without our smartphones," </span> the report asserted.
+                
+                "At this stage, we are hugely reliant on technology to function as a human race, from entertainment right through to life administration (banking, communication, shopping, etc). From the minute we wake up, we are immersed in a tech world. The dopamine hits we receive from our social media accounts are addictive. Technology will become ever more pervasive in our lives."
+                
+                The survey results demonstrate how society is increasingly turning to smart devices for day-to-day activities, and the consequences are not all positive.
+                
+                It was found that tech ownership has once again increased over the past year and has exacerbated existing concerns regarding its impact on family life. <span class="check_text5"> Three out of four individuals rely on instant messaging apps such as WhatsApp for communication. </span> Among Generation Z, which B&A defines as individuals aged between 16 and 26 years old, 90 percent use WhatsApp and 75 percent use Snapchat.
+                
+                Seventy-four percent of Generation Z stated that broadband was more important to them than TV, and most young people are now consuming more content on YouTube, the report concluded.</p>
+        </div>
+
+             <div id="quiz">
+                <h1>Quiz</h1>
+                <div id="question"></div>
+                <div id="choices"></div>
+                <button onclick="nextQuestion()">Next</button> 
+                <div id="score"></div>
+                <button id="check" onclick="checkInText()">Check in text</button>
+            </div>
+           
+    </main>
+   
     <script src="assets/script/app.js"></script>
 </body>
 </html>

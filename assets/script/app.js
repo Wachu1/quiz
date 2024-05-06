@@ -73,7 +73,7 @@ function nextQuestion() {
         displayQuestion();
     } else {
         const scoreElement = document.getElementById('score');
-        scoreElement.textContent = `Zdobyłeś(aś) ${score}/${questions.length} punktów.`;
+        scoreElement.textContent = `You scored ${score}/${questions.length} point.`;
         const textCheck = document.querySelector("#check");
         textCheck.style.display = "flex";
         const nextButton = document.getElementById('nextButton');
@@ -89,3 +89,15 @@ function nextQuestion() {
 displayQuestion();
 
 
+function checkInText(){
+    let checkText = document.querySelector(".check_text");
+    checkText.style.color = 'red' ;
+    let checkText2 = document.querySelector(".check_text2");
+    checkText2.style.color = 'red' ;
+    let checkText3 = document.querySelector(".check_text3");
+    checkText3.style.color = 'red' ;
+    let checkText4 = document.querySelector(".check_text4");
+    checkText4.style.color = 'red' ;
+    let checkText5 = document.querySelector(".check_text5");
+    checkText5.style.color = 'red' ;
+}
